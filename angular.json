@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sahakargroup"
+    }
+  },
+  "defaultProject": "sahakargroup",
+  "cli": {
+    "analytics": "e164bf66-fa0f-4010-811a-38166e472a0f"
+  }
 }
