@@ -1,75 +1,52 @@
-<!-- 
 
-<div class="page">
-  <app-home></app-home>
-  <app-about></app-about>
-  <app-strength></app-strength>
-  <app-service></app-service>
-  <app-warehouse></app-warehouse>
-  <app-government-contarct></app-government-contarct>
-  <app-tours></app-tours>
-  <app-contact></app-contact>
-  </div> -->
-  
-  <div>
-    <!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="home">Home</a>
-        </li>
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="about.html">About</a>
-        </li> -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            About Us
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-            <a class="dropdown-item" routerLink="about">Profile</a>
-            
-            <a class="dropdown-item" routerLink="strength">Strengths & Capabilities/Vision/Mission</a>
-           
-          </div>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Service
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-            <a class="dropdown-item" routerLink="service">Transportation</a>
-            <a class="dropdown-item" routerLink="warehouse">Container & Warehousing</a>
-            <a class="dropdown-item" routerLink="government-contarct">Government Contracts</a>
-            <a class="dropdown-item" routerLink="tours">Tours & Travels</a>
-           
-          </div>
-        </li>
-
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</a>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link" routerLink="contact">Contact</a>
-        </li>
-        
-        
-      </ul>
-    </div>
-  </div>
-</nav>
  
-  </div>
-<section>
+<header> 
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <img src="assets/images/logo.png" alt="logo" height="45" width="50"/><a class="navbar-brand" routerLink="home">Sahakar-Group</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownAbout">
+              <a class="dropdown-item" routerLink="about">Profile</a>
+              <a class="dropdown-item" routerLink="strength">Strengths & Capabilities/Vision/Mission</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownService" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Service
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownService">
+              <a class="dropdown-item" routerLink="service">Transportation</a>
+              <a class="dropdown-item" routerLink="warehouse">Container & Warehousing</a>
+              <a class="dropdown-item" routerLink="government-contarct">Government Contracts</a>
+              <a class="dropdown-item" routerLink="tours">Tours & Travels</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <section>
   <router-outlet></router-outlet>
 </section>
  <!-- Footer -->
  <footer class="py-5 bg-dark">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p>
   </div>
   <!-- /.container -->
 </footer>
