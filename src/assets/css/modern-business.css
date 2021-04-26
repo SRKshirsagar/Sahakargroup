@@ -20,3 +20,22 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.brand {
+  color:#007bff !important;
+}
+
+.brand a{
+  color:#007bff !important;
+}
+
+.heading{
+  color:#007bff !important;
+  padding-bottom: 7px;
+  border-bottom: #ff0022 2px solid;
+}
+
+.font{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
