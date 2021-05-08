@@ -17,6 +17,7 @@
     font-size: medium !important;
     padding-left: 4.5em;
     margin: 0;
+    font-style: italic;
   }
 
   @media only screen and (min-width: 300px) {
@@ -26,6 +27,7 @@
     .year{
       font-size:13px !important;
       padding-left: 2.9em;
+      font-style: italic;
     }
   }
 
@@ -36,5 +38,6 @@
     .year{
       font-size: medium !important;
       padding-left: 4.5em;
+      font-style: italic;
     }
   }
